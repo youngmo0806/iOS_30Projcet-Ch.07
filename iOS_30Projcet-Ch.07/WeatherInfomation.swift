@@ -11,6 +11,12 @@ struct WeatherInfomation: Codable {
     let weather: [Weather]
     let temp: Temp
     let name: String
+    
+    enum CodingKeys:String, CodingKey {
+        case weather
+        case temp = "main"
+        case name
+    }
 }
 
 //weather json sample
