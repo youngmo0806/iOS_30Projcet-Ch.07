@@ -14,6 +14,7 @@
 		111E0A672772A03C0062A7FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111E0A662772A03C0062A7FF /* Assets.xcassets */; };
 		111E0A6A2772A03C0062A7FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 111E0A682772A03C0062A7FF /* LaunchScreen.storyboard */; };
 		111E0A722772A6E70062A7FF /* WeatherInfomation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E0A712772A6E70062A7FF /* WeatherInfomation.swift */; };
+		111E0A742772BEAE0062A7FF /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111E0A732772BEAE0062A7FF /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		111E0A692772A03C0062A7FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		111E0A6B2772A03C0062A7FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		111E0A712772A6E70062A7FF /* WeatherInfomation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInfomation.swift; sourceTree = "<group>"; };
+		111E0A732772BEAE0062A7FF /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				111E0A5D2772A03B0062A7FF /* AppDelegate.swift */,
 				111E0A5F2772A03B0062A7FF /* SceneDelegate.swift */,
 				111E0A612772A03B0062A7FF /* ViewController.swift */,
+				111E0A732772BEAE0062A7FF /* Error.swift */,
 				111E0A712772A6E70062A7FF /* WeatherInfomation.swift */,
 				111E0A632772A03B0062A7FF /* Main.storyboard */,
 				111E0A662772A03C0062A7FF /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 				111E0A622772A03B0062A7FF /* ViewController.swift in Sources */,
 				111E0A5E2772A03B0062A7FF /* AppDelegate.swift in Sources */,
 				111E0A722772A6E70062A7FF /* WeatherInfomation.swift in Sources */,
+				111E0A742772BEAE0062A7FF /* Error.swift in Sources */,
 				111E0A602772A03B0062A7FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
