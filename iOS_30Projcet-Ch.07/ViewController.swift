@@ -44,13 +44,12 @@ class ViewController: UIViewController {
         self.minTempLabel.text = "최저: \(Int(weatherInfo.temp.minTemp - 273.15))℃"
         self.maxTempLabel.text = "최고: \(Int(weatherInfo.temp.maxTemp - 273.15))℃"
         
-        
-        
     }
     
     func getCurrentWeather(cityName: String) {
         
-        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=2fbda2ad1a542fd855f4bf0f429e810d") else {return}
+        guard let url = URL(string: "https://api.openweathermap.org/data/2.5/weather?q=\(cityName)&appid=2fbda2ad1a542fd855f4bf0f429e810d") else { return }
+        
         let session = URLSession(configuration: .default)
         
         session.dataTask(with: url){ data, response, error in
@@ -69,7 +68,7 @@ class ViewController: UIViewController {
                 }
                 
             }else{
-                //에러
+                //에러 alert 처리
                 guard let data = try? decoder.decode(Error.self, from: data) else { return }
                 
                 DispatchQueue.main.async {
